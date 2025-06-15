@@ -8,6 +8,8 @@ public class intro{
     b=7;
     c=a+b;
     System.out.println(c);
-    
+   int d;
+    d=a*b*c;
+    System.out.println(d);
   } 
 } 
