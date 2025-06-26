@@ -16,13 +16,17 @@ public class Wrapperclass {
 
         // int h = null; // invalid
         Integer age = null; // Valid
+        System.out.println(age);
         // int primitiveAge = null; // Compilation error
 
         int x1=10;
-        Integer x2 = 20; //auto boxing
+        Integer x2 = 20; //auto boxing // int ko Integer bana rhe h
+        Integer x4 = x1; // auto boxing 
+        System.out.println(x4);
+
         System.out.println(x1);
         System.out.println(x2);
-        int x3 = x2; //auto unboxing
+        int x3 = x2; //auto unboxing //Integer ko int bana rhe 
         System.out.println(x3);
 
         // Lets check both are same or not
